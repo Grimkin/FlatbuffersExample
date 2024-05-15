@@ -1,0 +1,4 @@
+table Message {
+  timepoint:double;
+  data:[byte];
+}
