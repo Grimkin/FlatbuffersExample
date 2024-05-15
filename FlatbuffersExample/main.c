@@ -21,5 +21,5 @@ int main()
 
     Message_table_t message = Message_as_root( buffer );
     double timepoint = Message_timepoint( message );
-    flatbuffers_int8_vec_t data = Message_data( message );
+    flatbuffers_int8_vec_t data1 = Message_data( message );
 }
